@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Multi SMS Sender</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="enter_mobile_numbers">Enter Contacts</string>
+    <string name="enter_count">Enter count</string>
+    <string name="send_sms_manually">Send SMS Manually</string>
+    <string name="select_contacts">Select contacts</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="send_whatsapp_message">Send Whatsapp message</string>
+    <string name="send_each_word">Send Each Word</string>
+    <string name="welcome_to_multi_sender_app">Made with &#9829; by Sourav &amp; Prafful</string>
+<!--    &#x2665; , &#10084;-->
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back8"
+    android:backgroundTint="#88AC9999"
+    android:backgroundTintMode="src_atop"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txt_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:autofillHints="@string/enter_your_message"
+            android:hint="@string/enter_your_message"
+            android:inputType="textMultiLine"
+            android:textColorHint="#000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txt_mobile_numbers"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:autofillHints="@string/enter_mobile_numbers"
+            android:hint="@string/enter_mobile_numbers"
+            android:inputType="textMultiLine"
+            android:textColorHint="#000"
+            android:textSize="14sp">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/button_choose_contacts"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/select_contacts"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txt_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:autofillHints="@string/enter_count"
+            android:hint="@string/enter_count"
+            android:inputType="number"
+            android:textColorHint="#000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_manual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:padding="5dp"
+            android:text="@string/send_sms_manually"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:padding="5dp"
+            android:text="@string/send_sms"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_whatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="#BA4DC878"
+            android:padding="5dp"
+            android:text="@string/send_whatsapp_message"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_whatsapp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="#BA4DC878"
+            android:padding="5dp"
+            android:text="@string/send_each_word"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/welcome_to_multi_sender_app"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+</LinearLayout>
+
